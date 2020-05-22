@@ -1,4 +1,4 @@
-const entrepreneurs = [
+  let entrepreneurs = [
     { first: 'Steve', last: 'Jobs', year: 1955 },
     { first: 'Oprah', last: 'Winfrey', year: 1954 },
     { first: 'Bill', last: 'Gates', year: 1955 },
@@ -19,15 +19,25 @@ const entrepreneurs = [
     { first: 'Peter', last: 'Thiel', year: 1967 }
   ];
 
-  let born70 = entrepreneurs.filter(function(entrepreneurs => entrepreneurs.year >1969 && entrepreneurs.year <1980); {
-      return entrepreneurs
-      
-  };
+  let year70s = [];
 
+    for (let i = 0; i < entrepreneurs.length; i++) 
+    {
+        if (entrepreneurs[i].year > 1969 && entrepreneurs[i].year < 1980) 
+        {
+        year70s.push(entrepreneurs[i]);
+        }
+    }
 
-  console.log(" here are the entrepreneurs born " + " " + born70);
+        console.log(year70s);
 
+// second question
 
+let names = [];
+    for (let i = 0; i < entrepreneurs.length; i++) 
+{
+    names.push(entrepreneurs[i].first) 
+    names.push(entrepreneurs[i].last);
+}
 
-
-  
+console.log();

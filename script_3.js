@@ -1,6 +1,7 @@
 let numberofrows = prompt("choose the number of rows for your pyramid")
 
-function Pyramid(numberofrows) {
+function Pyramid(numberofrows) 
+{
 
     var pyramid = '';
     var outputBlock='\n';
