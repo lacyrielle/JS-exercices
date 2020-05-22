@@ -1,3 +1,7 @@
+console.log("Hello dear, who are the entrepreneurs born in the 70' ? ")
+alert ("Hello dear, who are the entrepreneurs born in the 70' ?");
+
+
   let entrepreneurs = [
     { first: 'Steve', last: 'Jobs', year: 1955 },
     { first: 'Oprah', last: 'Winfrey', year: 1954 },
@@ -32,12 +36,14 @@
         console.log(year70s);
 
 // second question
+alert("Hello dear, here is an array containing names and surnames look in the console ")
+console.log("Hello dear, here is an array containing names and surnames ");
 
 let names = [];
     for (let i = 0; i < entrepreneurs.length; i++) 
 {
-    names.push(entrepreneurs[i].first) 
+    names.push(entrepreneurs[i].first); 
     names.push(entrepreneurs[i].last);
 }
 
-console.log();
+        console.log(names);
